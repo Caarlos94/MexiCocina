@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Carlos Islas">
+  <meta name="description" content="Sitio web enfocado en la venta de comida mexicana">
+  <meta name="keywords" content="Comida mexicana, Cocina mexicana, Platillos mexicanos, Tacos, Burritos, Enchiladas">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Titulo -->
+  <title>MexiCocina | Carlos Islas</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./img/taco.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Estilo Css -->
+  <link href="./style-paginas.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de Navegación -->
+  <header>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="./index.html">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="container px-0 navbar-nav d-flex justify-content-evenly  mx-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                MENÚ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item fw-bold" href="./desayunos.html">DESAYUNO</a></li>
+                <li><a class="dropdown-item fw-bold" href="#">COMIDA</a></li>
+                <li><a class="dropdown-item fw-bold" href="#">POSTRES</a></li>
+                <li><a class="dropdown-item fw-bold" href="#">BEBIDAS</a></li>
+                <li><a class="dropdown-item fw-bold" href="#">NIÑOS</a></li>
+              </ul>
+            </li>
+            <li id="logo" class="nav-item d-flex justify-content-start">
+              <a class="nav-link fw-bold" aria-current="page" href="./index.html">
+                LOGO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="./reservaciones.html">RESERVACIONES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contacto Titulo -->
+  <main class="contacto-titulo d-flex">
+    <div class="nuestra-historia-contenedor">
+      <div class="h-100 col-lg-12 d-flex flex-column justify-content-center mt-5">
+        <h1 class="fw-bold mb-0 text-dark"> CONTACTO </h1>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contenido de la sección -->
+  <section class="contenido-principal">
+    <div class="container contenido-principal-uno">
+      <div class="d-flex justify-content-around">
+        <div class="form-container">
+          <h4>MANDANOS UN MENSAJE</h4>
+          <p class="mb-4">Nos encantaria escucharte</p>
+          <form action="">
+            <div class="mb-3">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="titulo" id="nombre" placeholder="Escribe tu nombre" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="correo">Correo</label>
+              <input type="email" name="correo" id="correo" placeholder="Escribe tu correo" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="comentario">Comentario</label>
+              <textarea class="form-control" name="comentario" placeholder="Escribe tu comentario" id="comentario"
+                rows="6"></textarea>
+            </div>
+            <button class="btn btn-light py-3 px-4"> ENVIAR FORULARIO</button>
+          </form>
+        </div>
+        <aside class="contenido-columna-dos">
+          <section class="mb-5">
+            <h2 class="my-0">Telefono</h2>
+            <a href="tel:55 755 142 7898" class="nav-link">(55) 755 142 7898</a>
+          </section>
+          <section class="mb-5">
+            <h4>Dirección</h4>
+            <p class="direccion">Passeig Garica, 555<br>
+              37673, Ourense <br>
+              Vidal Medio, Spain
+            </p>
+          </section>
+          <section class="mx-auto contacto-horario">
+            <h4 class="mb-3">Horario de atención</h4>
+            <div class="d-flex">
+              <p class="dia">Lunes-Jueves:</p>
+              <p>11am - 9pm</p>
+            </div>
+            <div class="d-flex">
+              <p class="dia">Viernes:</p>
+              <p>11am - 10pm</p>
+            </div>
+            <div class="d-flex">
+              <p class="dia">Sabado:</p>
+              <p>5pm - 10pm</p>
+            </div>
+            <div class="d-flex">
+              <p class="dia">Domingo:</p>
+              <p>11am - 9pm</p>
+            </div>
+          </section>
+        </aside>
+        <div id="mapa" class="mt-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.0590449523115!2d-3.6020235123225897!3d40.033099148841224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4205bde0c9eaf3%3A0xc6910181ce3d3c5d!2sRestaurante%20en%20Aranjuez%20de%20Cocina%20Tradicional%20Madrid%20%7C%20Casa%20Pablo!5e0!3m2!1ses!2smx!4v1680391560000!5m2!1ses!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer id="contacto">
+    <div class="contenedor-footer text-white">
+      <div class="container">
+        <div class="row contenedor-footer-texto d-flex justify-content-around">
+          <div class="row-gap-3 col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-start">
+            <h2>MexiCocina</h2>
+            <div class="d-flex flex-column row-gap-3 info-principal">
+              <div class="d-flex">
+                <i class="bi bi-house-door"></i>
+                <p>A108 Adam Street</p>
+              </div>
+              <div class="d-flex">
+                <i class="bi bi-telephone-forward"></i>
+                <p>+55 755 142 7898</p>
+              </div>
+              <div class="d-flex">
+                <i class="bi bi-envelope"></i>
+                <p>mexicocina@ejemplo.com</p>
+              </div>
+              <div>
+                <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-evenly">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 d-flex flex-column justify-content-start row-gap-2">
+            <h2>Principales</h2>
+            <div class="d-flex flex-column row-gap-3 links-principales">
+              <a class="nav-link d-block" href="./index.html"> <i class="bi bi-caret-right-fill"> </i> <span>
+                  Home</span></a>
+              <a class="nav-link d-block" href="./sobre-nosotros.html"> <i class="bi bi-caret-right-fill"></i> <span>
+                  Sobre Nosotros</span></a>
+              <a class="nav-link d-block" href="./reservaciones.html"> <i class="bi bi-caret-right-fill"></i> <span>
+                  Reservaciones</span></a>
+              <a class="nav-link d-block" href="./contacto.html"> <i class="bi bi-caret-right-fill"></i> <span>
+                  Contacto</span></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 d-flex flex-column justify-content-start row-gap-2">
+            <h2>Otros</h2>
+            <div class="d-flex flex-column row-gap-3 links-secundarios">
+              <a class="nav-link d-block" href="#"> <i class="bi bi-caret-right-fill"></i> <span> Politica de
+                  privacidad</span></a>
+              <a class="nav-link d-block" href="#"> <i class="bi bi-caret-right-fill"></i> <span> Terminos y
+                  condiciones</span></a>
+              <a class="nav-link d-block" href="#"> <i class="bi bi-caret-right-fill"></i> <span> Aviso Legal</span></a>
+              <a class="nav-link d-block" href="#"> <i class="bi bi-caret-right-fill"></i> <span> Política de
+                  cookies</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">© Copyright MexiCocina. Todos los derechos reservados</p>
+      <p class="text-center">Creado por Carlos Islas</p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

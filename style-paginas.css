@@ -1,0 +1,336 @@
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  z-index: 35;
+  padding: 20px;
+}
+
+.navbar-brand {
+  display: none;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.navbar-icon {
+  width: 50px;
+}
+
+/************************************* SECCION SOBRE NOSOTROS */
+/* Nuestra historia */
+.nuestra-historia {
+  background-image: url("./img/Nosotros/restaurante.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+}
+
+.nuestra-historia-contenedor {
+  width: 100%;
+  height: 550px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+/* Historia */
+.container-primer-sec {
+  width: 750px;
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.container-primer-sec p {
+  margin: 0;
+}
+
+.texto-sec {
+  font-family: 'Sono', sans-serif;
+  font-size: 1.05rem;
+  line-height: 2rem;
+}
+
+/* Nuestra historia separador */
+.nuestra-historia-separador {
+  background-image: url("./img/Nosotros/restaurante-2.jpg");
+  background-size: cover;
+  background-position: 50% 65%;
+  text-align: center;
+  width: 100%;
+  height: 450px;
+}
+
+/* Filosofia */
+.filosofia-contenedor {
+  margin: -6rem auto 2rem;
+  width: 815px;
+  padding: 4rem 5rem 5rem 5rem;
+  background-color: #fff;
+}
+
+/* Footer */
+.contenedor-footer {
+  box-sizing: content-box;
+  margin-top: 4rem;
+  background-color: #1a1915;
+  font-size: 1.15rem;
+  position: relative;
+  padding: 4.5rem 0 0.5rem 0;
+}
+
+.contenedor-footer p, .contenedor-footer span, .contenedor-footer h2 {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.contenedor-footer h2 {
+  margin: 0;
+  font-family: 'Sono', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contenedor-footer-texto {
+  margin-bottom: 2.75rem;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 0 5px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid #fff;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: #000;
+}
+
+.nav-link span {
+  color: #fff;
+}
+
+.nav-link span:hover{
+  color: #bababa;
+}
+
+div > .bi {
+  margin-right: 10px;
+}
+
+.contenedor-footer .row {
+  row-gap: 2rem;
+}
+
+.contenedor-footer > p {
+  font-size: 1rem;
+}
+
+/********************************************************** SECCION MENÚ - DESAYUNOS */
+.menu-desayunos {
+  background-image: url("./img/Desayunos/desayuno.jpg");
+  background-size: cover;
+  background-position: 0% 45%;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+}
+
+.contenedor-desayunos h2 {
+  font-family: 'Sono', sans-serif;
+}
+
+.desayuno-card {
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: all 0.4s ease;
+}
+
+.menu-desayuno-1 {
+  background-image: url("./img/Desayunos/desayuno1.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+.menu-desayuno-2 {
+  background-image: url("./img/Desayunos/desayuno2.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+.menu-desayuno-3 {
+  background-image: url("./img/Desayunos/desayuno3.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+.menu-desayuno-4 {
+  background-image: url("./img/Desayunos/desayuno4.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+.menu-desayuno-5 {
+  background-image: url("./img/Desayunos/desayuno5.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+/****************************************************************** RESERVACIONES */
+.reservaciones {
+  background-image: url("./img/Reservaciones/reservaciones.jpg");
+  background-size: cover;
+  background-position: 0% 45%;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+}
+
+.reservaciones-info {
+  margin: 5rem auto;
+  width: 450px;
+}
+
+.reservaciones-info p {
+  font-family: 'Sono', sans-serif;
+}
+
+.horario-contenedor {
+  width: 260px;
+  padding: 75px 0;
+}
+
+.horario-contenedor p {
+  margin-bottom: 5px;
+  font-family: 'Sono', sans-serif;
+}
+
+.dia {
+  width: 150px;
+}
+
+/* Contacto */
+.contacto-titulo {
+  background-image: url("./img/Contacto/contacto.jpg");
+  background-size: cover;
+  background-position: 0% 55%;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+}
+
+textarea {
+  resize: none;
+}
+
+.contenido-principal {
+  margin: 5rem 0;
+}
+
+.contenido-principal-uno {
+  font-family: 'Sono', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa !important;
+}
+
+form .btn {
+  background-color: #dedede;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.contenido-principal-uno form {
+  max-width: 300px;
+}
+
+.contenido-columna-dos section a[href="tel:55 755 142 7898"] {
+  color: #bc8d4b;
+  font-weight: bolder;
+  font-size: 25px;
+  letter-spacing: -2px;
+}
+
+.contenido-columna-dos .direccion {
+  line-height: 30px;
+  margin: 0;
+}
+
+.contacto-horario p {
+  margin-bottom: 10px;
+}
+
+#mapa {
+  height: 360px;
+  width: 450px;
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 770px) {
+  #logo {
+    display: none !important;
+  }
+  .contenedor-footer {
+    padding: 4rem 0 0.5rem 0;
+  }
+  .links-principales, .links-secundarios {
+    align-items: center !important;
+  }
+  .info-principal div {
+    justify-content: center;
+  }
+  .navbar-brand {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .contenedor-footer p, .contenedor-footer span {
+    font-size: 1rem;
+  }
+  .contenedor-footer h2 {
+    font-size: 1.5rem;
+  }
+  .contenedor-footer > p {
+    font-size: .8rem
+  }
+}
