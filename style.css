@@ -35,6 +35,11 @@ body {
   height: 100vh;
 }
 
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
 .titulo-contenedor {
   position: absolute;
   width: 100%;
@@ -423,10 +428,10 @@ div > .bi {
 
 @media screen and (max-width: 610px) {
   h1 {
-    font-size: 3.75rem;
+    font-size: 3rem;
   }
   .titulo-contenedor p {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
   .texto-sep {
     font-size: 3rem;
